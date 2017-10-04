@@ -1,5 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div>
     <div>
         <div>
             <p style="padding:20px;"></p>
@@ -36,6 +35,20 @@
             <p><a href="#">More &raquo;</a></p>
         </div>
     </div>
-</div>
 
+    <div>
+        <b>Our Menu:</b>
+    </div>
+    <table border="1" cellpadding="10px" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr *ngFor="let dish of ourMenu">
+            <td>{{dish.name}}</td>
+            <td>{{dish.description}}</td>
+            <td>{{dish.price | currency}}
+        </tr>
+    </table>
 </div>
