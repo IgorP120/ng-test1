@@ -1,0 +1,18 @@
+.header {
+    background-color: #7485c1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0 20px 80px;
+    height: 200px;
+}
+
+.header-info {
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+.text-container {
+    width: 450px;
+}

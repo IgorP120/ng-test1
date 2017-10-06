@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopMenuComponent implements OnInit {
 
+  menuItems = [
+    { name: 'Home', selected: true },
+    { name: 'About' },
+    { name: 'Menu' },
+    { name: 'Contact' }
+  ];
+
   constructor() { }
 
   ngOnInit() {

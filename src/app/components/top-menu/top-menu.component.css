@@ -1,0 +1,16 @@
+.top-menu {
+    background-color: #304cb2;
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-item {
+    width: 80px;
+    padding: 10px;
+}
+
+.selected {
+    background-color: #081f75;
+}

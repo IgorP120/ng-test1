@@ -1,20 +1,21 @@
 <app-header></app-header>
 
 <div>
-    <div>
-        <div>
-            <p style="padding:20px;"></p>
+    <div class="row-container">
+        <div style="order: 2" class="standard-margin">
             <h3 align=center>Our Unique Culinary Creations</h3>
         </div>
+
         <div>
             <h2>Fichipizza</h2>
             <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado, honey and arugula.</p>
             <p><a href="#">More &raquo;</a></p>
         </div>
+
     </div>
-    <div>
-        <div>
-            <p style="padding:20px;"></p>
+
+    <div class="row-container">
+        <div class="standard-margin">
             <h3 align=center>This Month's Promotions</h3>
         </div>
         <div>
@@ -24,12 +25,11 @@
         </div>
     </div>
 
-    <div>
-        <div>
-            <p style="padding:20px;"></p>
+    <div class="row-container">
+        <div style="order: 2" class="standard-margin">
             <h3 align=center>Meet our Culinary Specialists</h3>
         </div>
-        <div>
+        <div class="float-right">
             <h2>Tommy McHugh</h2>
             <h4>Executive Chef</h4>
 
@@ -53,6 +53,7 @@
             <td>{{dish.price | currency}}
         </tr>
     </table>
+
 </div>
 
 <app-footer></app-footer>

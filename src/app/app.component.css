@@ -1,0 +1,9 @@
+.row-container {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px lightgrey solid;
+}
+
+.standard-margin {
+    margin: 30px 20px 0 20px;
+}
